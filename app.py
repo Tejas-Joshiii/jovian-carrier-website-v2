@@ -50,7 +50,7 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
     print("I am inside if")
 print(__name__)
-
+print("check kar hre hai")
 # requirement.txt file mei ham jo library isme import karenge vo dalaenge kyunki render.com ko pata nahi hai ki isko install karne ki jarurat hai
 # gunicorn ek production server hai for python when python says its for devlopment server not for production use isko use karke ham flask application ko production mei laate hai
 # pip ek package manager hai for python it is used to install liberaries in Python & u are just telling pip look into the requirements.txt file in each line there will be name of the liberary and plz install that liberary for me
